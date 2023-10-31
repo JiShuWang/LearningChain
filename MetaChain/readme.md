@@ -1,42 +1,42 @@
 # MetaChain
 
-## 代码目录
-### [data](data)     ---存放文章中所涉及的五个数据集
-###### （由于当前论文还在审稿状态，第5个数据集我们仅公布了部分）
+## Code Catalog
+### [data](data)     ---Store the five datasets involved in the article
+###### （Due to the current review status of the paper, we have only released a portion of the fifth dataset）
 ###### [BPD1.csv](data%2FBPD1.csv)
 ###### [BPD2.csv](data%2FBPD2.csv)
 ###### [BPD3.csv](data%2FBPD3.csv)
 ###### .......
-### [ensemble](ensemble)   ---集成学习代码及实验结果
+### [ensemble](ensemble)   ---Ensemble-Learning code and experimental results
 
-[light_ensemble.py](ensemble%2Flight_ensemble.py) 是第1-4个数据集的代码
+[light_ensemble.py](ensemble%2Flight_ensemble.py) It is the code for the BPD dataset
 
-[light_ensemble_5.py](ensemble%2Flight_ensemble_5.py) 是第5个数据集的代码
+[light_ensemble_5.py](ensemble%2Flight_ensemble_5.py) It is the code for the HFBTP dataset
 
-### [Meta](Meta)   ---元学习代码及实验结果
+### [Meta](Meta)   ---Meta-Learning code and experimental results
 
 
 [MetaReg.py](Meta%2FMetaReg.py)
 
-## 运行方式
+## Operation mode
 
-###### （将git文件下载后不要改变数据集文件夹和代码文件夹的相对路径）
+###### （Please do not change the relative path between the dataset folder and the code folder after downloading the git file）
 
-#### 集成学习
+#### Ensemble-Learning
 
 ````
-# dataset用于指定使用那个数据集 
-# task用于指定运行第几个任务
+# dataset: Used to specify which dataset to use 
+# task: Used to specify which task to run
 
 python light_ensemble.py --batch_size=10  --learning_rate=0.001 --dataset=1 --task=1
 ````
 
-#### 元学习
+#### Meta-Learning
 
 ````
-# targetdatasettargetdataset用于指定使用那个数据集 
-# task用于指定运行第几个任务
-# test_batch_size 用于指定在目标任务中使用几个样本进行训练
+# targetdatasettargetdataset: Used to specify which dataset to use 
+# task: Used to specify which task to run
+# test_batch_size: Used to specify how many samples to use for training in the target task
 
 python MetaReg.py --targetdataset=5 --task=1  --test_batch_size=10
 ````
