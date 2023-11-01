@@ -18,11 +18,11 @@ To click MetaChain and look specific information.
   
 2)
 
-  a. Choosing the blockchain performance dataset
+      a. Choosing the blockchain performance dataset
  
-  b. Training the blockchain performance prediction model
+      b. Training the blockchain performance prediction model
 
-  c. Predicting the blockchain performance
+      c. Predicting the blockchain performance
   
 3)
 
