@@ -26,8 +26,8 @@ To click MetaChain and look specific information.
   
 3)
 
-   a. Inputing the predicted transaction arrival rate and the predicted blockchain performance
+      a. Inputing the predicted transaction arrival rate and the predicted blockchain performance
 
-   b. Scoring and optimization
+      b. Scoring and optimization
 
-   c. Adjusting the blockchain parameters corresponds to the best score
+      c. Adjusting the blockchain parameters corresponds to the best score
