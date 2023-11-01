@@ -21,7 +21,7 @@ To click MetaChain and look specific information.
 
       c. Predicting the blockchain performance
   
-### 3) Blockchain Performance Scoring Optimization Mechanism 
+### 3) [Blockchain Performance Scoring Optimization Mechanism](https://github.com/JiShuWang/LearningChain/tree/main/ScoringOptimization)
 
       a. Inputing the predicted transaction arrival rate and the predicted blockchain performance
 
