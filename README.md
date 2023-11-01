@@ -15,11 +15,19 @@ To click MetaChain and look specific information.
       b. Training the transaction arrival rate prediction model
   
       c. Predicting the transaction arrival rate
+  
 3)
+
   a. Choosing the blockchain performance dataset
+ 
   b. Training the blockchain performance prediction model
+
   c. Predicting the blockchain performance
+  
 4)
+
    a. Inputing the predicted transaction arrival rate and the predicted blockchain performance
+
    b. Scoring and optimization
+
    c. Adjusting the blockchain parameters corresponds to the best score
