@@ -16,7 +16,7 @@ To click MetaChain and look specific information.
   
       c. Predicting the transaction arrival rate
   
-3)
+2)
 
   a. Choosing the blockchain performance dataset
  
@@ -24,7 +24,7 @@ To click MetaChain and look specific information.
 
   c. Predicting the blockchain performance
   
-4)
+3)
 
    a. Inputing the predicted transaction arrival rate and the predicted blockchain performance
 
