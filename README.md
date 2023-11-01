@@ -7,3 +7,13 @@ To make it easier to demonstrate the management of HFBTP, we have made it public
 To click MetaChain and look specific information.
 ## Meta-Learning Blockchain Performance Prediction Model
 To click MetaChain and look specific information.
+## Execution Steps:
+### 1.1. Choosing the transaction arrival rate dataset
+### 1.2 Training the transaction arrival rate prediction model
+### 1.3 Predicting the transaction arrival rate
+### 2.1 Choosing the blockchain performance dataset
+### 2.2 Training the blockchain performance prediction model
+### 2.3 Predicting the blockchain performance
+### 3.1 Inputing the predicted transaction arrival rate and the predicted blockchain performance
+### 3.2 Scoring and optimization
+### 3.3 Adjusting the blockchain parameters corresponds to the best score
