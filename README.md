@@ -12,7 +12,7 @@ To click MetaChain and look specific information.
   
       c. Predicting the transaction arrival rate
   
-### 2) [Learning-Based Blockchain Performance Prediction Model]([https://github.com/JiShuWang/LearningChain/tree/main/MetaChain](https://github.com/JiShuWang/LearningChain/tree/main/BlockchainPerformancePrediction))
+### 2) [Learning-Based Blockchain Performance Prediction Model](https://github.com/JiShuWang/LearningChain/tree/main/BlockchainPerformancePrediction)
 
       a. Choosing the blockchain performance dataset
  
