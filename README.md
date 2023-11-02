@@ -4,7 +4,7 @@ A blockchain performance predicition model based on machine learning, and a bloc
 To make it easier to demonstrate the management of HFBTP, we have made it publicly available on Kaggle, please move to https://www.kaggle.com/datasets/loveffc/hfbtp-a-blockchain-performance-dataset/data. We performed a detailed and comprehensive data analysis and aggregation of this dataset to demonstrate its value, usability and scalability in different aspects.
 To click MetaChain and look specific information.
 ## Execution Steps:
-### 1) Blockchain Transaction Arrival Rate Prediction Model
+### 1) [Transaction Arrival Rate Prediction Model](https://github.com/JiShuWang/LearningChain/tree/main/TransactionArrivalRatePrediction)
 
       a. Choosing the transaction arrival rate dataset
   
