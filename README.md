@@ -1,5 +1,25 @@
 # LearningChain: A Highly Scalable and Applicable Learning-Based Blockchain Performance Optimization Framework
-A blockchain performance predicition model based on machine learning, and a blockchain performance optimization framework. Submitted to IEEE Transactions on Network and Service Management.
+A blockchain performance predicition model based on machine learning, and a blockchain performance optimization framework. Published to IEEE Transactions on Network and Service Management.
+## Address
+https://ieeexplore.ieee.org/document/9961087
+## Cite
+@ARTICLE{9961087,
+
+  author={Wang, Jishu and Zhu, Chao and Miao, Chen and Zhu, Rui and Zhang, Xuan and Tang, Yahui and Huang, Hexiang and Gao, Chen},
+  
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  
+  title={BPR: Blockchain-Enabled Efficient and Secure Parking Reservation Framework With Block Size Dynamic Adjustment Method}, 
+  
+  year={2023},
+  
+  volume={24},
+  
+  number={3},
+  
+  pages={3555-3570},
+  
+  doi={10.1109/TITS.2022.3222960}}
 ## [Dataset: HFBTP](https://www.kaggle.com/datasets/loveffc/hfbtp-a-blockchain-performance-dataset/data)
 To make it easier to demonstrate the management of HFBTP, we have made it publicly available on Kaggle, please move to https://www.kaggle.com/datasets/loveffc/hfbtp-a-blockchain-performance-dataset/data. We performed a detailed and comprehensive data analysis and aggregation of this dataset to demonstrate its value, usability and scalability in different aspects. https://www.kaggle.com/code/loveffc/summurize-and-statistics.
 
