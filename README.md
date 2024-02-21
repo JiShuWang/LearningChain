@@ -5,12 +5,19 @@ https://ieeexplore.ieee.org/document/9961087
 ## Cite
 @ARTICLE{10375789,
   author={Wang, Jishu and Wang, Yaowei and Zhang, Xuan and Jin, Zhi and Zhu, Chao and Li, Linyu and Zhu, Rui and Lv, Shenglong},
+  
   journal={IEEE Transactions on Network and Service Management}, 
+  
   title={LearningChain: A Highly Scalable and Applicable Learning-Based Blockchain Performance Optimization Framework}, 
+
   year={2023},
+  
   volume={},
+  
   number={},
+  
   pages={1-1},
+  
   doi={10.1109/TNSM.2023.3347789}}
 ## [Dataset: HFBTP](https://www.kaggle.com/datasets/loveffc/hfbtp-a-blockchain-performance-dataset/data)
 To make it easier to demonstrate the management of HFBTP, we have made it publicly available on Kaggle, please move to https://www.kaggle.com/datasets/loveffc/hfbtp-a-blockchain-performance-dataset/data. We performed a detailed and comprehensive data analysis and aggregation of this dataset to demonstrate its value, usability and scalability in different aspects. https://www.kaggle.com/code/loveffc/summurize-and-statistics.
