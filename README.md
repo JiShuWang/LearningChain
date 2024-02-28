@@ -1,7 +1,7 @@
 # LearningChain: A Highly Scalable and Applicable Learning-Based Blockchain Performance Optimization Framework
 A blockchain performance predicition model based on machine learning, and a blockchain performance optimization framework. Has been published to IEEE Transactions on Network and Service Management.
 ## Address
-https://ieeexplore.ieee.org/document/9961087
+https://ieeexplore.ieee.org/document/10375789
 ## Cite
 @ARTICLE{10375789,
   author={Wang, Jishu and Wang, Yaowei and Zhang, Xuan and Jin, Zhi and Zhu, Chao and Li, Linyu and Zhu, Rui and Lv, Shenglong},
