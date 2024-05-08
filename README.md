@@ -4,12 +4,13 @@ A blockchain performance predicition model based on machine learning, and a bloc
 https://ieeexplore.ieee.org/document/10375789
 ## Cite
 @ARTICLE{10375789,
+
   author={Wang, Jishu and Wang, Yaowei and Zhang, Xuan and Jin, Zhi and Zhu, Chao and Li, Linyu and Zhu, Rui and Lv, Shenglong},
   
   journal={IEEE Transactions on Network and Service Management}, 
   
   title={LearningChain: A Highly Scalable and Applicable Learning-Based Blockchain Performance Optimization Framework}, 
-
+  
   year={2024},
   
   volume={21},
