@@ -10,13 +10,13 @@ https://ieeexplore.ieee.org/document/10375789
   
   title={LearningChain: A Highly Scalable and Applicable Learning-Based Blockchain Performance Optimization Framework}, 
 
-  year={2023},
+  year={2024},
   
-  volume={},
+  volume={21},
   
-  number={},
+  number={2},
   
-  pages={1-1},
+  pages={1817-1831},
   
   doi={10.1109/TNSM.2023.3347789}}
 ## [Dataset: HFBTP](https://www.kaggle.com/datasets/loveffc/hfbtp-a-blockchain-performance-dataset/data)
