@@ -63,10 +63,10 @@ class LitClassifier(pl.LightningModule):
         self.backbone = backbone
         self.criterion = nn.MSELoss()
 
-        self.GradientBoosting =torch.reshape(torch.from_numpy(GradientBoosting), (-1, 1))
-        self.RandomForest=torch.reshape(torch.from_numpy(RandomForest), (-1, 1))
-        self.Bagging=torch.reshape(torch.from_numpy(Bagging), (-1, 1))
-        self.KNeighbors=torch.reshape(torch.from_numpy(KNeighbors), (-1, 1))
+        self.GradientBoosting =GradientBoosting
+        self.RandomForest=RandomForest
+        self.Bagging=Bagging
+        self.KNeighbors=KNeighbors
     def forward(self, x):
         # use forward for inference/predictions
         embedding = self.backbone(x)
