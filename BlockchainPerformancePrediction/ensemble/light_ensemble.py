@@ -42,7 +42,7 @@ class Backbone(torch.nn.Module):
     def __init__(self):
         super().__init__()
         self.droprate = 0.1
-        if Dataset != 5:
+        if Dataset != "HFBTP":
             self.layer = nn.Sequential(
             nn.Linear(2, 64),
             nn.ReLU(True),
@@ -136,7 +136,7 @@ def cli_main():
     parser = ArgumentParser()
     parser.add_argument('--batch_size', default=32, type=int)
     parser.add_argument('--learning_rate', type=float, default=0.001)
-    parser.add_argument('--dataset', type=int, default=1, help='Indicates which data set to use')
+    parser.add_argument('--dataset', type=str, default="BPD1", help='Indicates which data set to use')
     parser.add_argument('--task', type=str, default="Throughput", help='Indicates which task to perform')
     args = parser.parse_args()
     Dataset = args.dataset
@@ -144,7 +144,7 @@ def cli_main():
     # data
     # ------------
     raw_data = pd.read_csv('../data/BPD' + str(args.dataset) + '.csv').values
-    if args.dataset != 5:
+    if args.dataset != "HFBTP":
         X = raw_data[:, :2]
         if args.task == "Throughput":
             Y1 = raw_data[:, 3].reshape((-1, 1))
